@@ -20,6 +20,7 @@ function Hero() {
       <img
         src={heroImages[currentIndex]}
         alt="Joueur de padel"
+        loading="lazy"
         className="block h-auto w-full transition-opacity duration-700"
       />
     </section>

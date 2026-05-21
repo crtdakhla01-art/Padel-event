@@ -45,7 +45,7 @@ function PartnersPage() {
         <img
           src={heroImg}
           alt="Partenaires et sponsors padel"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/42 to-black/22" />

@@ -64,7 +64,7 @@ function CalendarPage() {
         <img
           src={heroImg}
           alt="Calendrier de competition padel"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/40 to-black/25" />

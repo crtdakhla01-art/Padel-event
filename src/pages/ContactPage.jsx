@@ -81,7 +81,7 @@ function ContactPage() {
         <img
           src={heroImg}
           alt="Equipe padel au Maroc"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/65 via-black/42 to-black/20" />

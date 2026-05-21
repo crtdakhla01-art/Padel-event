@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom'
-import { brand, contactInfo } from '../data/siteData'
+import { useCachedSiteData } from '../hooks/useCachedSiteData'
 
 function Footer() {
+  const { data } = useCachedSiteData()
+  const brand = data?.brand ?? { name: 'Padel Maroc Pro' }
+  const contactInfo = data?.contactInfo ?? { address: '', phone: '', email: '' }
+
   return (
     <footer className="bg-[#e8ead8] text-ink">
 

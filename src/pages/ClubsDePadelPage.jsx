@@ -38,7 +38,7 @@ function ClubsDePadelPage() {
         <img
           src={heroImg}
           alt="Clubs de Padel au Maroc"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-black/30" />

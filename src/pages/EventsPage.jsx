@@ -85,7 +85,7 @@ function EventsPage() {
         <img
           src={heroImg}
           alt="Evenement padel au Maroc"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/35 to-black/45" />

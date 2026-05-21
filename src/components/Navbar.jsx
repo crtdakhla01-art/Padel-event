@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import { contactInfo, navItems } from '../data/siteData'
+import { useCachedSiteData } from '../hooks/useCachedSiteData'
 
 function Navbar() {
   const location = useLocation()
+  const { data } = useCachedSiteData()
+  const navItems = data?.navItems ?? []
+  const contactInfo = data?.contactInfo ?? { phone: '', email: '' }
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [openDesktopDropdown, setOpenDesktopDropdown] = useState(null)
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null)

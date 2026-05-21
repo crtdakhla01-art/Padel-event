@@ -43,7 +43,7 @@ function ClubsPage() {
         <img
           src={heroImg}
           alt="Trusted travel mates"
-          loading="eager"
+          loading="lazy"
           className="block h-auto w-full"
         />
         <div className="absolute inset-0 bg-black/25" />
