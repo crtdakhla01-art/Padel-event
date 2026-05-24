@@ -9,51 +9,51 @@ import sessionImg3 from '../assets/images/CALENDAR_PAGE/img_8.png'
 
 function CalendarPage() {
   usePageSeo({
-    title: 'Calendrier | Padel Maroc Pro',
+    title: 'Calendrier des competitions | Coupe Intercontinentale de Padel',
     description:
-      'Calendrier officiel du Morocco Padel Masters 2026 avec programme detaille par jour et sessions de competition.',
+      'Retrouvez toutes les competitions et evenements de padel programmes au Maroc.',
   })
 
   const keyDates = [
     {
       label: 'Cloture inscriptions',
-      date: '10 Juin 2026',
+      date: 'Tournoi Casablanca - Janvier',
     },
     {
-      label: 'Tirage officiel',
-      date: '12 Juin 2026',
+      label: 'Tournoi regional',
+      date: 'Open Marrakech - Mars',
     },
     {
-      label: 'Debut du tournoi',
-      date: '15 Juin 2026',
+      label: 'Evenement international',
+      date: 'Coupe Intercontinentale Dakhla - Juin',
     },
     {
-      label: 'Finale nationale',
-      date: '17 Juin 2026',
+      label: 'Circuit national',
+      date: 'Masters Rabat - Septembre',
     },
   ]
 
   const tournamentDays = [
     {
       day: 'Jour 1',
-      title: 'Qualifications & controle',
-      date: '15 Juin 2026',
+      title: 'Tournoi Casablanca',
+      date: 'Janvier 2026',
       image: sessionImg1,
-      sessions: ['08:00 - Check-in equipes', '10:00 - Debut qualifications', '19:00 - Publication des tableaux'],
+      sessions: ['Niveau: Amateur', 'Ville: Casablanca', 'Format: Tableau principal'],
     },
     {
       day: 'Jour 2',
-      title: 'Main Draw & night session',
-      date: '16 Juin 2026',
+      title: 'Open Marrakech',
+      date: 'Mars 2026',
       image: sessionImg2,
-      sessions: ['09:30 - 1/16 & 1/8 finales', '16:30 - Quarts de finale', '20:00 - Night session centrale'],
+      sessions: ['Niveau: National', 'Ville: Marrakech', 'Format: Open'],
     },
     {
       day: 'Jour 3',
-      title: 'Demi-finales & finale',
-      date: '17 Juin 2026',
+      title: 'Padel Business Cup',
+      date: 'Novembre 2026',
       image: sessionImg3,
-      sessions: ['11:00 - Demi-finales', '15:00 - Match pour 3e place', '18:00 - Grande finale & podium'],
+      sessions: ['Niveau: Corporate', 'Ville: Rabat', 'Format: B2B'],
     },
   ]
 
@@ -73,7 +73,7 @@ function CalendarPage() {
           <div className="mx-auto w-full max-w-[1200px] px-[4vw] pb-8 sm:pb-12 lg:pb-16">
             <p className="inline-flex items-center gap-2 text-[clamp(0.62rem,1vw,0.82rem)] font-semibold uppercase tracking-[0.2em] text-white/90">
               <CalendarDays className="h-3.5 w-3.5" />
-              Calendrier officiel
+              Calendrier des competitions
             </p>
             <h1
               className="mt-3 max-w-5xl text-[clamp(1.85rem,5.8vw,4.6rem)] uppercase leading-[0.94] text-white"
@@ -83,13 +83,13 @@ function CalendarPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Morocco padel masters
+              Calendrier padel
               <br />
-              calendrier 2026
+              maroc 2026
             </h1>
             <p className="mt-4 max-w-2xl text-[clamp(0.9rem,1.4vw,1.1rem)] leading-relaxed text-white/90">
-              Toute la programmation du tournoi central: inscriptions, tirage, matchs,
-              night session et finale nationale.
+              Retrouvez toutes les competitions et evenements de padel programmes
+              au Maroc, avec une vue claire de la saison.
             </p>
           </div>
         </div>
@@ -141,9 +141,9 @@ function CalendarPage() {
             </h2>
 
             <p className="mt-6 max-w-[62ch] text-sm leading-7 text-[#5c5c52]">
-              Le calendrier est pense pour fluidifier le tournoi: controle des equipes,
-              progression des tableaux et show final. Chaque session est horodatee pour
-              faciliter l'organisation des joueurs, coachs et spectateurs.
+              Le calendrier centralise les rendez-vous majeurs de la saison.
+              Cette base peut evoluer avec filtres par ville, niveau et date
+              ainsi qu'une vue calendrier moderne.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -228,7 +228,7 @@ function CalendarPage() {
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-4 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
           <p className="inline-flex items-center gap-2 text-sm text-white/85">
             <MapPin className="h-4 w-4 text-[#b7c25b]" />
-            Site officiel: Casablanca Arena, Boulevard de la Corniche, Casablanca
+            Evenement majeur: Coupe Intercontinentale de Padel - Dakhla
           </p>
           <Link
             to="/contact"

@@ -2,7 +2,7 @@ import {
   CalendarDays,
   ShieldCheck,
   Users,
-  Plane,
+  Globe2,
 } from 'lucide-react'
 import heroImg from '../assets/images/img_16.png'
 import aboutImg from '../assets/images/img_12.png'
@@ -18,18 +18,18 @@ import g8 from '../assets/images/img_6.png'
 const features = [
   {
     icon: ShieldCheck,
-    title: 'FREE CANCELLATION',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'SPORT MODERNE',
+    text: 'Un format dynamique, accessible et spectaculaire pour tous les publics.',
   },
   {
     icon: CalendarDays,
-    title: 'FLEXIBLE DATES',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'MIXTE & INTERGENERATIONNEL',
+    text: 'Le padel rassemble jeunes, familles, entreprises et competiteurs.',
   },
   {
     icon: Users,
-    title: 'PROFESSIONAL GUIDES',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'CROISSANCE RAPIDE',
+    text: 'Developpement accelere des clubs, academies et tournois au Maroc.',
   },
 ]
 
@@ -50,8 +50,8 @@ function ClubsPage() {
 
         <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
           <p className="mb-3 inline-flex items-center gap-2 text-[clamp(0.65rem,1.1vw,0.85rem)] font-semibold uppercase tracking-[0.22em]">
-            <Plane className="h-3.5 w-3.5" />
-            About
+            <Globe2 className="h-3.5 w-3.5" />
+            Croissance nationale
           </p>
           <h1
             className="max-w-6xl text-[clamp(1.95rem,6.2vw,4.9rem)] uppercase leading-[0.96]"
@@ -61,10 +61,10 @@ function ClubsPage() {
               letterSpacing: '-0.02em',
             }}
           >
-            Trusted Travel Mates
+            Le Padel au Maroc
           </h1>
           <p className="mt-4 text-[clamp(0.9rem,1.6vw,1.55rem)] text-white/90">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Un sport moderne qui attire joueurs, entrepreneurs et investisseurs.
           </p>
         </div>
       </div>
@@ -74,8 +74,8 @@ function ClubsPage() {
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-[1fr_0.55fr] lg:gap-16">
           <div>
             <p className="mb-5 inline-flex items-center gap-2 text-[clamp(0.62rem,0.9vw,0.8rem)] font-semibold uppercase tracking-[0.2em] text-[#5c5c52]">
-              <Plane className="h-3.5 w-3.5" />
-              Nextour
+              <Globe2 className="h-3.5 w-3.5" />
+              Ecosysteme padel
             </p>
 
             <h2
@@ -86,24 +86,25 @@ function ClubsPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              We Are A Team Of Passionate Traveler
+              Le Maroc devient une
+              <br />
+              reference regionale
             </h2>
 
             <div className="mt-8 max-w-2xl space-y-4 text-[clamp(0.9rem,1.05vw,1.02rem)] leading-8 text-[#5c5c52]">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Cursus vitae congue
-                mauris rhoncus aenean vel. Suspendisse sed nisi lacus sed viverra tellus.
-                Urna duis convallis convallis tellus.
+                Le padel connait une croissance exceptionnelle au Maroc.
+                Ce sport moderne et accessible attire aujourd'hui joueurs amateurs,
+                sportifs professionnels, entrepreneurs et investisseurs.
               </p>
               <p>
-                Interdum velit laoreet. In pellentesque massa placerat duis. Arcu cursus
-                euismod quis viverra nibh cras pulvinar mattis. Blandit libero volutpat sed
-                cras ornare arcu dui vivamus. Integer eget aliquet nibh praesent.
+                Grace a des evenements comme la Coupe Intercontinentale de Padel - Dakhla,
+                le Maroc renforce son positionnement comme hub du padel en Afrique,
+                a l'intersection du sport et du business.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                luctus nec ullamcorper mattis.
+                Le developpement des clubs, des academies et des competitions nationales
+                confirme cette dynamique structurelle sur tout le territoire.
               </p>
             </div>
           </div>
@@ -111,7 +112,7 @@ function ClubsPage() {
           <div className="overflow-hidden bg-black/5">
             <img
               src={aboutImg}
-              alt="Travel tent view"
+              alt="Padel au Maroc"
               loading="lazy"
               className="block h-auto w-full"
             />
@@ -149,7 +150,7 @@ function ClubsPage() {
           <div key={index} className="group relative aspect-[4/3] overflow-hidden">
             <img
               src={src}
-              alt={`Travel gallery ${index + 1}`}
+              alt={`Padel Maroc ${index + 1}`}
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />

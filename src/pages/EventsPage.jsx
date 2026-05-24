@@ -10,48 +10,48 @@ import cardImg3 from '../assets/images/EVENTS_PAGE/img_10.png'
 
 function EventsPage() {
   usePageSeo({
-    title: 'Événement | Padel Maroc Pro',
+    title: 'Evenements | Coupe Intercontinentale de Padel',
     description:
-      'Découvrez le grand événement padel national au Maroc, son programme complet et les informations d\'inscription.',
+      'Decouvrez les plus grands evenements de padel organises au Maroc et a l international.',
   })
 
   const eventSteps = [
     {
       number: '1',
-      title: 'Choisir votre categorie',
-      text: 'Selectionnez votre tableau: Elite, Pro-Am ou Mixte selon votre niveau.',
+      title: 'Tournois internationaux',
+      text: 'Affiches internationales et tableaux competitifs avec delegations de plusieurs pays.',
     },
     {
       number: '2',
-      title: 'Valider l\'inscription',
-      text: 'Confirmez votre place pour le Morocco Padel Masters 2026.',
+      title: 'Networking & business meetings',
+      text: 'Rencontres B2B, activations partenaires et opportunites d investissement.',
     },
     {
       number: '3',
-      title: 'Entrer en competition',
-      text: 'Recevez votre planning officiel et disputez les matchs du tournoi.',
+      title: 'Animations publiques',
+      text: 'Exhibitions, village partenaires et experiences ouvertes au grand public.',
     },
   ]
 
   const faqItems = [
     {
-      question: 'Comment participer a cet evenement ?',
+      question: 'Quel est l evenement principal ?',
       answer:
-        'Inscription via la plateforme officielle, puis confirmation par email avec votre convocation et les horaires.',
+        'La Coupe Intercontinentale de Padel - Dakhla 2026 est le rendez-vous central de la saison.',
       open: true,
     },
     {
-      question: 'L\'evenement est-il ouvert aux debutants ?',
+      question: 'Quels formats sont proposes ?',
       answer: '',
       open: false,
     },
     {
-      question: 'Quel materiel est recommande pour jouer ?',
+      question: 'Y a-t-il des activites business ?',
       answer: '',
       open: false,
     },
     {
-      question: 'Peut-on participer en equipe mixte ?',
+      question: 'Les animations sont-elles ouvertes au public ?',
       answer: '',
       open: false,
     },
@@ -59,21 +59,21 @@ function EventsPage() {
 
   const eventProgram = [
     {
-      title: 'Jour 1 Qualifs',
-      place: 'Casablanca Arena',
-      date: '15 Juin 2026',
+      title: 'Coupe Intercontinentale - Ouverture',
+      place: 'Dakhla',
+      date: '22 Octobre 2026',
       image: cardImg1,
     },
     {
-      title: 'Jour 2 Main Draw',
-      place: 'Casablanca Arena',
-      date: '16 Juin 2026',
+      title: 'Journee exhibitions & networking',
+      place: 'Dakhla',
+      date: '23 Octobre 2026',
       image: cardImg2,
     },
     {
-      title: 'Jour 3 Finales',
-      place: 'Casablanca Arena',
-      date: '17 Juin 2026',
+      title: 'Finales et ceremonie',
+      place: 'Dakhla',
+      date: '25 Octobre 2026',
       image: cardImg3,
     },
   ]
@@ -94,7 +94,7 @@ function EventsPage() {
           <div className="mx-auto w-full max-w-[1000px]">
             <p className="inline-flex items-center gap-2 text-[clamp(0.62rem,1vw,0.82rem)] font-semibold uppercase tracking-[0.2em] text-white/95">
               <Sparkles className="h-3.5 w-3.5" />
-              Let us play
+              Evenements
             </p>
             <h1
               className="mt-3 text-[clamp(1.95rem,6.2vw,4.9rem)] uppercase leading-[0.94] text-white"
@@ -104,13 +104,13 @@ function EventsPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Morocco padel
+              Coupe intercontinentale
               <br />
-              masters 2026
+              de padel - dakhla 2026
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-[clamp(0.9rem,1.4vw,1.15rem)] leading-relaxed text-white/90">
-              Un seul grand rendez-vous national, trois jours de competition intense,
-              ambiance premium et spectacle padel.
+              Un evenement international reunissant joueurs, sponsors,
+              investisseurs et medias autour du sport et du business.
             </p>
           </div>
         </div>
@@ -132,19 +132,19 @@ function EventsPage() {
             <ul className="mt-7 space-y-3 text-sm text-[#5c5c52]">
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Evenement officiel certifie federation
+                Tournois internationaux et exhibitions
               </li>
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Categories Elite, Pro-Am et Mixte
+                Networking et business meetings
               </li>
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Matchs classes avec arbitrage officiel
+                Activites partenaires et fan experiences
               </li>
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Fan zone, restauration et animations live
+                Visibilite mediatique nationale et internationale
               </li>
             </ul>
           </div>
@@ -152,7 +152,7 @@ function EventsPage() {
           <div>
             <p className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.17em] text-[#5c5c52]">
               <MapPin className="h-3.5 w-3.5" />
-              Hidden Places
+              Programme
             </p>
 
             <h2
@@ -163,9 +163,9 @@ function EventsPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Le parcours du
+              Moments forts de
               <br />
-              tournoi commence ici
+              l'evenement
             </h2>
 
             <div className="mt-8 space-y-7">
@@ -207,7 +207,7 @@ function EventsPage() {
             <div>
               <p className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.17em] text-[#5c5c52]">
                 <MapPin className="h-3.5 w-3.5" />
-                Nextour
+                Informations utiles
               </p>
 
               <h3
@@ -218,9 +218,9 @@ function EventsPage() {
                   letterSpacing: '-0.02em',
                 }}
               >
-                Un seul evenement,
+                Participation,
                 <br />
-                une grande histoire
+                logistique et acces
               </h3>
 
               <div className="mt-8 space-y-1">
@@ -267,9 +267,9 @@ function EventsPage() {
                 />
               </div>
               <p className="mt-5 text-sm leading-7 text-[#5c5c52]">
-                Interdum velit laoreet. In pellentesque massa placerat duis. Arcu cursus
-                euismod quis viverra nibh cras pulvinar mattis. Blandit libero volutpat sed
-                cras ornare arcu dui vivamus.
+                L'evenement combine competition, business et experiences partenaires
+                dans un cadre unique a Dakhla, avec programmation sportive et rencontres
+                professionnelles sur toute la duree.
               </p>
             </div>
           </div>
@@ -287,15 +287,15 @@ function EventsPage() {
               letterSpacing: '-0.02em',
             }}
           >
-            Programme de
+            Apercu de
             <br />
-            l'evenement
+            la programmation
           </h3>
 
           <div className="pb-1">
             <p className="max-w-[42ch] text-sm leading-7 text-[#5c5c52]">
-              Trois jours de competition organises autour d\'un seul grand rendez-vous
-              padel national.
+              Quatre jours de competition, exhibitions, networking et activites
+              ouvertes au public.
             </p>
             <Link
               to="/calendrier"
@@ -351,6 +351,7 @@ function EventsPage() {
       <div className="reveal bg-[#dfe2cf]">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
           <p className="text-sm text-[#5c5c52]">Pret a rejoindre le Morocco Padel Masters 2026 ?</p>
+          <p className="text-sm text-[#5c5c52]">Pret a participer a la Coupe Intercontinentale de Padel - Dakhla 2026 ?</p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               to="/calendrier"

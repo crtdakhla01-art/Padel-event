@@ -13,18 +13,18 @@ import g8 from '../assets/images/img_10.png'
 const features = [
   {
     icon: MapPin,
-    title: 'COURTS PREMIUM',
-    text: 'Terrains homologués aux standards internationaux dans tout le Maroc.',
+    title: 'CASABLANCA, RABAT, MARRAKECH',
+    text: 'Principaux hubs du padel marocain avec structures competitives et academies.',
   },
   {
     icon: Trophy,
-    title: 'TOURNOIS OFFICIELS',
-    text: "Compétitions régionales et nationales organisées tout au long de l'année.",
+    title: 'AGADIR, TANGER, DAKHLA',
+    text: 'Villes en forte croissance avec nouveaux clubs et programmation regionale.',
   },
   {
     icon: Star,
-    title: 'ACADÉMIES JUNIORS',
-    text: "Programmes d'entraînement dédiés aux jeunes talents du padel marocain.",
+    title: 'CARTE CLUB COMPLETE',
+    text: 'Chaque club presente image, ville, terrains, contact et canaux digitaux.',
   },
 ]
 
@@ -59,7 +59,7 @@ function ClubsDePadelPage() {
             Clubs de Padel au Maroc
           </h1>
           <p className="mt-4 text-[clamp(0.9rem,1.6vw,1.55rem)] text-white/90">
-            Découvrez les meilleurs clubs de padel à travers tout le Royaume.
+            Decouvrez les principaux clubs et infrastructures qui developpent ce sport.
           </p>
         </div>
       </div>
@@ -81,24 +81,23 @@ function ClubsDePadelPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Un Réseau de Clubs d'Excellence
+              Les clubs qui structurent
+              <br />
+              le padel marocain
             </h2>
 
             <div className="mt-8 max-w-2xl space-y-4 text-[clamp(0.9rem,1.05vw,1.02rem)] leading-8 text-[#5c5c52]">
               <p>
-                Le padel connaît une expansion remarquable au Maroc, avec plus de 120 clubs
-                actifs répartis dans 19 villes du Royaume. Des complexes modernes aux
-                académies de formation, l'infrastructure padel marocaine ne cesse de se
-                développer.
+                Le padel poursuit son expansion au Maroc avec une diversite de clubs
+                modernes, academies et centres de competition dans les grandes villes.
               </p>
               <p>
-                Nos clubs partenaires offrent des installations de qualité internationale,
-                des coaches certifiés et des programmes adaptés à tous les niveaux, du
-                débutant au compétiteur confirmé.
+                De Casablanca a Dakhla, chaque structure participe a la montee en gamme
+                des infrastructures et a la professionnalisation de l'ecosysteme.
               </p>
               <p>
-                Rejoignez la communauté padel du Maroc et trouvez le club le plus proche
-                de chez vous pour commencer votre aventure sur les courts.
+                Dakhla devient une destination majeure du padel grace a son climat
+                et son cadre exceptionnel entre lagune, ocean et desert.
               </p>
             </div>
           </div>

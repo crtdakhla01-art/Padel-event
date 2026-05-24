@@ -70,7 +70,7 @@ function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-ink/15 mx-4 sm:mx-6 lg:mx-10">
         <div className="mx-auto flex max-w-7xl items-center justify-between py-4 text-[11px] text-ink/50">
-          <span>© {new Date().getFullYear()} {brand.name}. Tous droits réservés.</span>
+          <span>© Coupe Intercontinentale de Padel - Dakhla 2026. Tous droits réservés.</span>
           <div className="flex items-center gap-5">
             <a href="#" className="hover:text-brand transition">Politique de confidentialité</a>
             <a href="#" className="hover:text-brand transition">Conditions d’utilisation</a>

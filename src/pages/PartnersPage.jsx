@@ -8,34 +8,36 @@ import spotlightImg from '../assets/images/PARTNERS_PAGE/img_15.png'
 
 function PartnersPage() {
   usePageSeo({
-    title: 'Partenaires | Padel Maroc Pro',
+    title: 'Partenaires & Sponsors | Coupe Intercontinentale de Padel',
     description:
-      'Partenaires et sponsors officiels du Morocco Padel Masters 2026. Rejoignez le dispositif de visibilite national.',
+      'Associez votre marque a l un des evenements sportifs les plus ambitieux du Maroc.',
   })
 
   const partnerTiers = [
     {
-      name: 'Title Partner',
-      reach: 'Naming officiel',
-      perks: 'Visibilite premium sur court central, media et digital.',
+      name: 'Pack Bronze',
+      reach: 'Partenaire associe - 450 000 DH H.T',
+      perks: 'Logo digital, presence reseaux sociaux, invitations et networking.',
     },
     {
-      name: 'Official Partner',
-      reach: 'Activation terrain',
-      perks: 'Branding zones joueurs, fan zone et social content.',
+      name: 'Pack Silver',
+      reach: 'Partenaire officiel - 650 000 DH H.T',
+      perks: 'Presence medias, terrains secondaires, supports officiels et invitation VIP.',
     },
     {
-      name: 'Supporting Partner',
-      reach: 'Presence locale',
-      perks: 'Logo wall, presence programme et operations sur site.',
+      name: 'Pack Gold',
+      reach: 'Partenaire majeur - 850 000 DH H.T',
+      perks: 'Co-naming, logo dominant, activations sur mesure, RP et invitations VIP premium.',
     },
   ]
 
   const partnerBenefits = [
-    'Audience sport premium et engagee',
-    'Activation marque sur 3 jours de tournoi',
-    'Couverture media regionale et nationale',
-    'Visibilite digitale avant et apres evenement',
+    'Forte visibilite',
+    'Branding premium',
+    'Presence medias & reseaux sociaux',
+    'Networking B2B',
+    'Hospitalite VIP',
+    'Image moderne et internationale',
   ]
 
   return (
@@ -54,7 +56,7 @@ function PartnersPage() {
           <div className="mx-auto w-full max-w-[1200px] px-[4vw] pb-8 sm:pb-12 lg:pb-16">
             <p className="inline-flex items-center gap-2 text-[clamp(0.62rem,1vw,0.82rem)] font-semibold uppercase tracking-[0.2em] text-white/90">
               <Sparkles className="h-3.5 w-3.5" />
-              Sponsorship program
+              Partenaires & sponsors
             </p>
             <h1
               className="mt-3 max-w-5xl text-[clamp(1.85rem,5.8vw,4.6rem)] uppercase leading-[0.94] text-white"
@@ -64,13 +66,13 @@ function PartnersPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Partenaires officiels
+              Associez votre marque
               <br />
-              morocco padel masters
+              a l'evenement reference
             </h1>
             <p className="mt-4 max-w-2xl text-[clamp(0.9rem,1.4vw,1.1rem)] leading-relaxed text-white/90">
-              Associez votre marque a l'evenement padel de reference avec un dispositif
-              de visibilite premium sur site, media et digital.
+              Rejoignez un dispositif national ambitieux combinant sport,
+              visibilite media et opportunites business.
             </p>
           </div>
         </div>
@@ -100,8 +102,8 @@ function PartnersPage() {
 
             <p className="mt-6 max-w-[62ch] text-sm leading-7 text-[#5c5c52]">
               Le Morocco Padel Masters propose des formats de collaboration sur mesure,
-              adaptes aux objectifs de notoriete, performance commerciale et engagement
-              communautaire de votre entreprise.
+              adaptes aux objectifs de notoriete, de performance commerciale
+              et de rayonnement institutionnel.
             </p>
 
             <ul className="mt-7 space-y-3 text-sm text-[#5c5c52]">
@@ -211,11 +213,11 @@ function PartnersPage() {
             <div className="mt-5 space-y-3 text-sm text-[#5c5c52]">
               <p className="inline-flex items-center gap-2">
                 <Megaphone className="h-4 w-4 text-[#8ba045]" />
-                Presence branding sur court, LED, backdrops et interviews.
+                Presence branding sur court, backdrops, digital et relations presse.
               </p>
               <p className="inline-flex items-center gap-2">
                 <Megaphone className="h-4 w-4 text-[#8ba045]" />
-                Contenus co-branded pour reels, stories et recap officiel.
+                Sectors cibles: automobile, banque, energie, telecom, immobilier, tourisme.
               </p>
             </div>
           </div>
@@ -225,13 +227,13 @@ function PartnersPage() {
       {/* CTA */}
       <div className="reveal bg-[#1f2118]">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
-          <p className="text-sm text-white/85">Devenez partenaire officiel du Morocco Padel Masters 2026.</p>
+          <p className="text-sm text-white/85">Devenez sponsor de la Coupe Intercontinentale de Padel - Dakhla 2026.</p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               to="/contact"
               className="inline-flex items-center justify-center border border-[#b7c25b] bg-[#b7c25b] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1f2118] transition hover:bg-white"
             >
-              Demander un dossier
+              Telecharger le dossier sponsoring
             </Link>
             <Link
               to="/evenements"

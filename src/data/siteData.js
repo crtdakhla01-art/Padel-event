@@ -4,8 +4,8 @@ import footerVisual from '../assets/footer.jpg'
 import styleVisual from '../assets/global-kit-styles.jpg'
 
 export const brand = {
-  name: 'Padel Maroc Pro',
-  baseline: 'Fédération et écosystème premium du padel au Maroc',
+  name: 'Coupe Intercontinentale de Padel',
+  baseline: 'Dakhla 2026 - Carrefour du Sport et des Affaires',
 }
 
 export const navItems = [
@@ -29,62 +29,65 @@ export const navItems = [
 export const heroSlides = [
   {
     image: homeVisual,
-    eyebrow: 'Saison 2026',
-    title: 'Le Padel Marocain en Mouvement',
-    text: 'Tournois nationaux, académies et clubs premium réunis dans une même énergie sportive.',
+    eyebrow: '3eme edition',
+    title: 'Coupe Intercontinentale de Padel - Dakhla 2026',
+    text: 'Un evenement sportif international qui rassemble sport, business, tourisme et networking.',
   },
 ]
 
 export const stats = [
-  { label: 'Clubs actifs', value: '120+' },
-  { label: 'Tournois par an', value: '48' },
-  { label: 'Joueurs licenciés', value: '7 500+' },
-  { label: 'Villes couvertes', value: '19' },
+  { label: 'Nations participantes', value: '16' },
+  { label: 'Continents representes', value: '5' },
+  { label: 'Equipes internationales', value: '32' },
+  { label: 'Supporteurs internationaux', value: '+160' },
 ]
 
 export const clubs = [
   {
-    name: 'Atlas Padel Club — Marrakech',
+    name: 'Dakhla Padel Club',
+    courts: '8 terrains',
     city: 'Marrakech',
     image: styleVisual,
     description:
-      'Complexe de référence avec courts panoramiques, coaching de performance et événements corporate.',
+      'Infrastructure premium, academie et programmation annuelle de tournois regionaux.',
   },
   {
     name: 'Casablanca Padel Hub',
+    courts: '10 terrains',
     city: 'Casablanca',
     image: homeVisual,
     description:
-      'Expérience premium indoor-outdoor, académie junior et ligue du week-end.',
+      'Complexe indoor-outdoor avec ecole juniors et activations business & networking.',
   },
   {
-    name: 'Rabat Élite Padel',
+    name: 'Rabat Elite Padel',
+    courts: '6 terrains',
     city: 'Rabat',
     image: footerVisual,
     description:
-      'Club orienté compétition avec encadrement technique et analyse vidéo des matchs.',
+      'Club oriente competition, sessions de performance et circuit national amateur.',
   },
 ]
 
 export const events = [
   {
-    title: 'Morocco Open 1000',
-    date: '14 juin 2026',
-    location: 'Rabat Arena',
+    title: 'Coupe Intercontinentale de Padel - Dakhla 2026',
+    date: '22 - 25 octobre 2026',
+    location: 'Dakhla',
     image: homeVisual,
-    level: 'Élite',
+    level: 'International',
   },
   {
-    title: 'Casablanca Night Series',
-    date: '29 juin 2026',
-    location: 'Casablanca Padel Hub',
+    title: 'Padel Business Cup',
+    date: 'Novembre 2026',
+    location: 'Rabat',
     image: headerVisual,
     level: 'Pro-Am',
   },
   {
-    title: 'Agadir Beach Masters',
-    date: '12 juillet 2026',
-    location: 'Agadir Coast Club',
+    title: 'Open Marrakech',
+    date: 'Mars 2026',
+    location: 'Marrakech',
     image: styleVisual,
     level: 'National',
   },
@@ -92,51 +95,63 @@ export const events = [
 
 export const timeline = [
   {
-    stage: 'Phase qualificative',
-    date: 'Mai 2026',
-    body: 'Seize clubs régionaux se disputent les places pour le tableau final.',
+    stage: 'Premiere edition',
+    date: '2019',
+    body: 'Lancement de la competition avec un format pionnier reliant sport et attractivite territoriale.',
   },
   {
-    stage: 'Tableau principal',
-    date: 'Juin 2026',
-    body: 'Les meilleures paires nationales et les invités internationaux s\'affrontent dans trois villes.',
+    stage: 'Retour post-pandemie',
+    date: '2024',
+    body: 'Relance de l\'evenement avec un positionnement plus international.',
   },
   {
-    stage: 'Finales nationales',
-    date: 'Juillet 2026',
-    body: 'Clôture de saison, animations en fan zone et remise des distinctions.',
+    stage: 'Nouvelle ambition',
+    date: '2026',
+    body: 'Edition Dakhla orientee sport, business, tourisme et networking.',
   },
 ]
 
 export const calendar = [
   {
-    month: 'Mai 2026',
+    month: 'Janvier 2026',
     competitions: [
-      'Rookie Cup Fès — 3 mai',
-      'Women Impact Tour Tanger — 11 mai',
-      'Interclubs Région Sud — 24 mai',
+      'Tournoi Casablanca',
+    ],
+  },
+  {
+    month: 'Mars 2026',
+    competitions: [
+      'Open Marrakech',
     ],
   },
   {
     month: 'Juin 2026',
     competitions: [
-      'Morocco Open 1000 — 14 juin',
-      'Casablanca Night Series — 29 juin',
+      'Coupe Intercontinentale Dakhla',
     ],
   },
   {
-    month: 'Juillet 2026',
+    month: 'Septembre 2026',
     competitions: [
-      'Agadir Beach Masters — 12 juillet',
-      'Finales nationales — 27 juillet',
+      'Masters Rabat',
+    ],
+  },
+  {
+    month: 'Novembre 2026',
+    competitions: [
+      'Padel Business Cup',
     ],
   },
 ]
 
 export const sponsors = [
-  'Royal Air Maroc',
-  'OCP Sport Initiative',
-  'Décathlon Maroc',
+  'Automobile',
+  'Banque',
+  'Energie',
+  'Institutionnels',
+  'Telecom',
+  'Immobilier',
+  'Tourisme',
 ]
 
 export const contactInfo = {

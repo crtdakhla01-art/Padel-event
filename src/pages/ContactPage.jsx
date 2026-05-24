@@ -10,9 +10,9 @@ function ContactPage() {
   const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' })
 
   usePageSeo({
-    title: 'Contact | Padel Maroc Pro',
+    title: 'Contact | Coupe Intercontinentale de Padel',
     description:
-      'Contactez l equipe Padel Maroc Pro pour inscriptions, partenariats et informations sur le Morocco Padel Masters 2026.',
+      'Contactez l equipe pour partenariat, participation et informations sur la Coupe Intercontinentale de Padel - Dakhla 2026.',
   })
 
   const handleSubmit = (event) => {
@@ -31,6 +31,7 @@ function ContactPage() {
     const formData = new FormData(form)
     const payload = {
       fullName: formData.get('fullName')?.toString().trim(),
+      company: formData.get('company')?.toString().trim(),
       email: formData.get('email')?.toString().trim(),
       phone: formData.get('phone')?.toString().trim(),
       subject: formData.get('subject')?.toString(),
@@ -100,13 +101,10 @@ function ContactPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Parlons de votre
-              <br />
-              projet padel
+              Contact
             </h1>
             <p className="mt-4 max-w-2xl text-[clamp(0.9rem,1.4vw,1.1rem)] leading-relaxed text-white/90">
-              Inscriptions, sponsoring ou informations logistiques: notre equipe vous
-              repond rapidement.
+              Nous contacter pour partenariat ou participation.
             </p>
           </div>
         </div>
@@ -195,6 +193,17 @@ function ContactPage() {
                   maxLength={120}
                   className="border border-[#1f2118]/15 bg-white px-4 py-3 text-sm text-[#1f2118] outline-none transition focus:border-[#8ba045]"
                   placeholder="vous@email.com"
+                />
+              </label>
+
+              <label className="flex flex-col gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#5c5c52]">
+                Societe
+                <input
+                  type="text"
+                  name="company"
+                  maxLength={120}
+                  className="border border-[#1f2118]/15 bg-white px-4 py-3 text-sm text-[#1f2118] outline-none transition focus:border-[#8ba045]"
+                  placeholder="Nom de votre societe"
                 />
               </label>
 
