@@ -140,8 +140,8 @@ export const sponsors = [
 ]
 
 export const contactInfo = {
-  address: 'Avenue Mohammed VI, Casablanca, Maroc',
-  phone: '+212 5 22 00 10 10',
+  address: 'Kassam 1 - Dakhla - Maroc',
+  phone: '+212 660 544 904',
   email: 'contact@padelmarocpro.ma',
 }
 

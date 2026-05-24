@@ -11,7 +11,7 @@ function Footer() {
 
       {/* Main grid */}
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-10">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
 
           {/* Brand column */}
           <div className="flex flex-col gap-4">
@@ -54,15 +54,6 @@ function Footer() {
             <Link to="/clubs" className="text-sm text-ink/70 hover:text-brand transition">Clubs de padel</Link>
             <Link to="/calendrier" className="text-sm text-ink/70 hover:text-brand transition">Événements</Link>
             <Link to="/calendrier" className="text-sm text-ink/70 hover:text-brand transition">Calendrier</Link>
-          </div>
-
-          {/* Federation column */}
-          <div className="flex flex-col gap-3">
-            <h4 className="text-[11px] font-bold uppercase tracking-[0.16em] text-ink">Fédération</h4>
-            <Link to="/contact" className="text-sm text-ink/70 hover:text-brand transition">À propos</Link>
-            <Link to="/partenaires" className="text-sm text-ink/70 hover:text-brand transition">Partenaires</Link>
-            <Link to="/calendrier" className="text-sm text-ink/70 hover:text-brand transition">Tournois</Link>
-            <Link to="/contact" className="text-sm text-ink/70 hover:text-brand transition">Notre équipe</Link>
           </div>
 
           {/* Links column */}
