@@ -32,7 +32,7 @@ function HomePage() {
         <div className="absolute inset-0 flex items-end">
           <div className="mx-auto w-full max-w-[1200px] px-[4vw] pb-8 sm:pb-12 lg:pb-16">
             <h1
-              className="mt-3 max-w-4xl text-[clamp(1.95rem,6vw,4.7rem)] uppercase leading-[0.94] text-white"
+              className="mt-3 hidden max-w-4xl text-[clamp(1.95rem,6vw,4.7rem)] uppercase leading-[0.94] text-white sm:block"
               style={{
                 fontFamily: 'Oswald, Bebas Neue, Impact, sans-serif',
                 fontWeight: 700,
