@@ -26,7 +26,7 @@ function HomePage() {
 
   return (
     <section className="w-full bg-[#f3f1eb] text-[#1d2017]">
-      <div className="reveal relative">
+      <div className="reveal relative isolate w-full overflow-hidden bg-black/5">
         <Hero />
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-black/20" />
         <div className="absolute inset-0 flex items-end">

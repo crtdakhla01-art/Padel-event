@@ -16,12 +16,12 @@ function Hero() {
   }, [])
 
   return (
-    <section className="relative w-full min-h-[520px] sm:min-h-[620px] lg:min-h-[700px]">
+    <section className="w-full">
       <img
         src={heroImages[currentIndex]}
         alt="Joueur de padel"
         loading="lazy"
-        className="absolute inset-0 h-full w-full object-cover transition-opacity duration-700"
+        className="block h-auto w-full transition-opacity duration-700"
       />
     </section>
   )
