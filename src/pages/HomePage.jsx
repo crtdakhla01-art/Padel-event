@@ -54,22 +54,22 @@ function HomePage() {
               22 - 25 Octobre 2026
             </p>
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-3 flex flex-row flex-nowrap gap-1.5 sm:mt-6 sm:gap-3">
               <Link
                 to="/evenements"
-                className="inline-flex items-center justify-center border border-white/35 bg-white px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1d2017] transition hover:bg-[#dfe2cf]"
+                className="inline-flex min-w-0 flex-1 items-center justify-center whitespace-nowrap border border-white/35 bg-white px-1.5 py-1.5 text-[8px] font-semibold uppercase leading-none tracking-[0.04em] text-[#1d2017] transition hover:bg-[#dfe2cf] sm:px-5 sm:py-3 sm:text-[11px] sm:tracking-[0.16em]"
               >
                 Découvrir l'événement
               </Link>
               <Link
                 to="/partenaires"
-                className="inline-flex items-center justify-center border border-white/35 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition hover:border-[#dfe2cf] hover:text-[#dfe2cf]"
+                className="inline-flex min-w-0 flex-1 items-center justify-center whitespace-nowrap border border-white/35 px-1.5 py-1.5 text-[8px] font-semibold uppercase leading-none tracking-[0.04em] text-white transition hover:border-[#dfe2cf] hover:text-[#dfe2cf] sm:px-5 sm:py-3 sm:text-[11px] sm:tracking-[0.16em]"
               >
                 Devenir partenaire
               </Link>
               <Link
                 to="/calendrier"
-                className="inline-flex items-center justify-center border border-white/35 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition hover:border-[#dfe2cf] hover:text-[#dfe2cf]"
+                className="inline-flex min-w-0 flex-1 items-center justify-center whitespace-nowrap border border-white/35 px-1.5 py-1.5 text-[8px] font-semibold uppercase leading-none tracking-[0.04em] text-white transition hover:border-[#dfe2cf] hover:text-[#dfe2cf] sm:px-5 sm:py-3 sm:text-[11px] sm:tracking-[0.16em]"
               >
                 Voir le calendrier
               </Link>
