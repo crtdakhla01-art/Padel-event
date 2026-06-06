@@ -10,43 +10,43 @@ import cardImg3 from '../assets/images/EVENTS_PAGE/img_10.png'
 
 function EventsPage() {
   usePageSeo({
-    title: 'Evenements | Coupe Intercontinentale de Padel',
+    title: 'Événements | Padel Event Maroc',
     description:
-      'Decouvrez les plus grands evenements de padel organises au Maroc et a l international.',
+      'Découvrez les plus grands événements de padel organisés au Maroc et à l\'international.',
   })
 
   const eventSteps = [
     {
       number: '1',
       title: 'Tournois internationaux',
-      text: 'Affiches internationales et tableaux competitifs avec delegations de plusieurs pays.',
+      text: 'Affiches internationales et tableaux compétitifs avec délégations de plusieurs pays.',
     },
     {
       number: '2',
       title: 'Networking & business meetings',
-      text: 'Rencontres B2B, activations partenaires et opportunites d investissement.',
+      text: 'Rencontres B2B, activations partenaires et opportunités d\'investissement.',
     },
     {
       number: '3',
       title: 'Animations publiques',
-      text: 'Exhibitions, village partenaires et experiences ouvertes au grand public.',
+      text: 'Exhibitions, village partenaires et expériences ouvertes au grand public.',
     },
   ]
 
   const faqItems = [
     {
-      question: 'Quel est l evenement principal ?',
+      question: 'Quel est l\'événement principal ?',
       answer:
-        'La Coupe Intercontinentale de Padel - Dakhla 2026 est le rendez-vous central de la saison.',
+        'Padel Event Maroc - Dakhla 2026 est le rendez-vous central de la saison.',
       open: true,
     },
     {
-      question: 'Quels formats sont proposes ?',
+      question: 'Quels formats sont proposés ?',
       answer: '',
       open: false,
     },
     {
-      question: 'Y a-t-il des activites business ?',
+      question: 'Y a-t-il des activités business ?',
       answer: '',
       open: false,
     },
@@ -65,13 +65,13 @@ function EventsPage() {
       image: cardImg1,
     },
     {
-      title: 'Journee exhibitions & networking',
+      title: 'Journée exhibitions & networking',
       place: 'Dakhla',
       date: '23 Octobre 2026',
       image: cardImg2,
     },
     {
-      title: 'Finales et ceremonie',
+      title: 'Finales et cérémonie',
       place: 'Dakhla',
       date: '25 Octobre 2026',
       image: cardImg3,
@@ -84,7 +84,7 @@ function EventsPage() {
       <div className="reveal relative isolate w-full overflow-hidden bg-black/5">
         <img
           src={heroImg}
-          alt="Evenement padel au Maroc"
+          alt="Événement padel au Maroc"
           loading="lazy"
           className="block h-auto w-full"
         />
@@ -94,7 +94,7 @@ function EventsPage() {
           <div className="mx-auto w-full max-w-[1000px]">
             <p className="inline-flex items-center gap-2 text-[clamp(0.62rem,1vw,0.82rem)] font-semibold uppercase tracking-[0.2em] text-white/95">
               <Sparkles className="h-3.5 w-3.5" />
-              Evenements
+              Événements
             </p>
             <h1
               className="mt-3 text-[clamp(1.95rem,6.2vw,4.9rem)] uppercase leading-[0.94] text-white"
@@ -109,8 +109,8 @@ function EventsPage() {
               de padel - dakhla 2026
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-[clamp(0.9rem,1.4vw,1.15rem)] leading-relaxed text-white/90">
-              Un evenement international reunissant joueurs, sponsors,
-              investisseurs et medias autour du sport et du business.
+              Un événement international réunissant joueurs, sponsors,
+              investisseurs et médias autour du sport et du business.
             </p>
           </div>
         </div>
@@ -140,11 +140,11 @@ function EventsPage() {
               </li>
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Activites partenaires et fan experiences
+                Activités partenaires et fan expériences
               </li>
               <li className="inline-flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-[#8ba045]" />
-                Visibilite mediatique nationale et internationale
+                Visibilité médiatique nationale et internationale
               </li>
             </ul>
           </div>
@@ -165,7 +165,7 @@ function EventsPage() {
             >
               Moments forts de
               <br />
-              l'evenement
+              l'événement
             </h2>
 
             <div className="mt-8 space-y-7">
@@ -220,7 +220,7 @@ function EventsPage() {
               >
                 Participation,
                 <br />
-                logistique et acces
+                logistique et accès
               </h3>
 
               <div className="mt-8 space-y-1">
@@ -267,9 +267,9 @@ function EventsPage() {
                 />
               </div>
               <p className="mt-5 text-sm leading-7 text-[#5c5c52]">
-                L'evenement combine competition, business et experiences partenaires
-                dans un cadre unique a Dakhla, avec programmation sportive et rencontres
-                professionnelles sur toute la duree.
+                L'événement combine compétition, business et expériences partenaires
+                dans un cadre unique à Dakhla, avec programmation sportive et rencontres
+                professionnelles sur toute la durée.
               </p>
             </div>
           </div>
@@ -287,21 +287,21 @@ function EventsPage() {
               letterSpacing: '-0.02em',
             }}
           >
-            Apercu de
+            Aperçu de
             <br />
             la programmation
           </h3>
 
           <div className="pb-1">
             <p className="max-w-[42ch] text-sm leading-7 text-[#5c5c52]">
-              Quatre jours de competition, exhibitions, networking et activites
+              Quatre jours de compétition, exhibitions, networking et activités
               ouvertes au public.
             </p>
             <Link
               to="/calendrier"
               className="mt-4 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1f2118] transition hover:text-[#7f8e47]"
             >
-              Voir details
+              Voir détails
               <span aria-hidden="true">→</span>
             </Link>
           </div>
@@ -350,8 +350,8 @@ function EventsPage() {
       {/* CTA */}
       <div className="reveal bg-[#dfe2cf]">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
-          <p className="text-sm text-[#5c5c52]">Pret a rejoindre le Morocco Padel Masters 2026 ?</p>
-          <p className="text-sm text-[#5c5c52]">Pret a participer a la Coupe Intercontinentale de Padel - Dakhla 2026 ?</p>
+          <p className="text-sm text-[#5c5c52]">Prêt à rejoindre Padel Event Maroc 2026 ?</p>
+          <p className="text-sm text-[#5c5c52]">Prêt à participer à Padel Event Maroc - Dakhla 2026 ?</p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               to="/calendrier"

@@ -4,8 +4,8 @@ import footerVisual from '../assets/footer.jpg'
 import styleVisual from '../assets/global-kit-styles.jpg'
 
 export const brand = {
-  name: 'Coupe Intercontinentale de Padel',
-  baseline: 'Dakhla 2026 - Carrefour du Sport et des Affaires',
+  name: 'Padel Event Maroc',
+  baseline: 'Plateforme officielle du padel au Maroc',
 }
 
 export const navItems = [
@@ -29,16 +29,16 @@ export const navItems = [
 export const heroSlides = [
   {
     image: homeVisual,
-    eyebrow: '3eme edition',
-    title: 'Coupe Intercontinentale de Padel - Dakhla 2026',
-    text: 'Un evenement sportif international qui rassemble sport, business, tourisme et networking.',
+    eyebrow: '3e édition',
+    title: 'Padel Event Maroc - Dakhla 2026',
+    text: 'Un événement sportif international qui rassemble sport, business, tourisme et networking.',
   },
 ]
 
 export const stats = [
   { label: 'Nations participantes', value: '16' },
-  { label: 'Continents representes', value: '5' },
-  { label: 'Equipes internationales', value: '32' },
+  { label: 'Continents représentés', value: '5' },
+  { label: 'Équipes internationales', value: '32' },
   { label: 'Supporteurs internationaux', value: '+160' },
 ]
 
@@ -49,7 +49,7 @@ export const clubs = [
     city: 'Marrakech',
     image: styleVisual,
     description:
-      'Infrastructure premium, academie et programmation annuelle de tournois regionaux.',
+      'Infrastructure premium, académie et programmation annuelle de tournois régionaux.',
   },
   {
     name: 'Casablanca Padel Hub',
@@ -57,7 +57,7 @@ export const clubs = [
     city: 'Casablanca',
     image: homeVisual,
     description:
-      'Complexe indoor-outdoor avec ecole juniors et activations business & networking.',
+      'Complexe indoor-outdoor avec école juniors et activations business & networking.',
   },
   {
     name: 'Rabat Elite Padel',
@@ -65,13 +65,13 @@ export const clubs = [
     city: 'Rabat',
     image: footerVisual,
     description:
-      'Club oriente competition, sessions de performance et circuit national amateur.',
+      'Club orienté compétition, sessions de performance et circuit national amateur.',
   },
 ]
 
 export const events = [
   {
-    title: 'Coupe Intercontinentale de Padel - Dakhla 2026',
+    title: 'Padel Event Maroc - Dakhla 2026',
     date: '22 - 25 octobre 2026',
     location: 'Dakhla',
     image: homeVisual,
@@ -95,19 +95,19 @@ export const events = [
 
 export const timeline = [
   {
-    stage: 'Premiere edition',
+    stage: 'Première édition',
     date: '2019',
-    body: 'Lancement de la competition avec un format pionnier reliant sport et attractivite territoriale.',
+    body: 'Lancement de la compétition avec un format pionnier reliant sport et attractivité territoriale.',
   },
   {
     stage: 'Retour post-pandemie',
     date: '2024',
-    body: 'Relance de l\'evenement avec un positionnement plus international.',
+    body: 'Relance de l\'événement avec un positionnement plus international.',
   },
   {
     stage: 'Nouvelle ambition',
     date: '2026',
-    body: 'Edition Dakhla orientee sport, business, tourisme et networking.',
+    body: 'Édition Dakhla orientée sport, business, tourisme et networking.',
   },
 ]
 
@@ -147,9 +147,9 @@ export const calendar = [
 export const sponsors = [
   'Automobile',
   'Banque',
-  'Energie',
+  'Énergie',
   'Institutionnels',
-  'Telecom',
+  'Télécom',
   'Immobilier',
   'Tourisme',
 ]
@@ -157,7 +157,7 @@ export const sponsors = [
 export const contactInfo = {
   address: 'Kassam 1 - Dakhla - Maroc',
   phone: '+212 660 544 904',
-  email: 'contact@padelmarocpro.ma',
+  email: 'contact@padeleventmaroc.com',
 }
 
 export const visualAssets = {

@@ -43,7 +43,7 @@ export const featuredTournaments = [
     image: eventImage3,
     href: '/evenements',
     tone: 'light',
-    summary: 'Padel, coastline atmosphere et storytelling media dans un week-end destine aux amateurs de grands decors.',
+    summary: 'Padel, coastline atmosphere et storytelling média dans un week-end destiné aux amateurs de grands décors.',
   },
   {
     title: 'Atlas Finals Weekend',
@@ -53,19 +53,19 @@ export const featuredTournaments = [
     image: eventImage4,
     href: '/calendrier',
     tone: 'dark',
-    summary: 'Finales federales, ceremonies, partenaires et production media premium au coeur du circuit national.',
+    summary: 'Finales fédérales, cérémonies, partenaires et production média premium au cœur du circuit national.',
   },
 ]
 
 export const liveExperience = {
   image: eventImage5,
   eyebrow: 'Live event experience',
-  title: 'Au coeur du padel marocain, la tension monte avant chaque point.',
-  body: 'Chaque tournoi devient une experience complete: public, lumiere, contenu media, clubs hotes et narration federale reunis dans une meme energie.',
+  title: 'Au cœur du padel marocain, la tension monte avant chaque point.',
+  body: 'Chaque tournoi devient une expérience complète: public, lumière, contenu média, clubs hôtes et narration fédérale réunis dans une même énergie.',
   stats: [
     { label: 'Spectateurs sur site', value: 18500, suffix: '+' },
     { label: 'Heures de diffusion', value: 64, suffix: 'h' },
-    { label: 'Clubs engages', value: 120, suffix: '+' },
+    { label: 'Clubs engagés', value: 120, suffix: '+' },
   ],
 }
 
@@ -110,31 +110,31 @@ export const communitySpotlight = {
   feature: {
     image: eventImage3,
     label: 'Community spotlight',
-    title: 'Une nouvelle generation de joueurs, coachs et createurs structure la scene padel au Maroc.',
-    body: 'Des academies locales aux grands weekends de competition, la communaute grandit avec une culture premium, inclusive et visuelle.',
+    title: 'Une nouvelle génération de joueurs, coachs et créateurs structure la scène padel au Maroc.',
+    body: 'Des académies locales aux grands weekends de compétition, la communauté grandit avec une culture premium, inclusive et visuelle.',
   },
   stories: [
     {
       name: 'Sara El Idrissi',
       role: 'Joueuse / Casablanca',
-      quote: 'Le circuit marocain commence enfin a raconter ses matchs comme une vraie scene internationale.',
+      quote: 'Le circuit marocain commence enfin à raconter ses matchs comme une vraie scène internationale.',
     },
     {
       name: 'Yassine Benomar',
       role: 'Coach / Rabat',
-      quote: 'Les clubs veulent plus qu un terrain: ils veulent une identite, une experience, une communaute.',
+      quote: 'Les clubs veulent plus qu\'un terrain: ils veulent une identité, une expérience, une communauté.',
     },
     {
       name: 'Nora Amrani',
       role: 'Media host / Marrakech',
-      quote: 'Le futur du padel passe aussi par les images, les interviews et les recits que l on construit autour du jeu.',
+      quote: 'Le futur du padel passe aussi par les images, les interviews et les récits que l\'on construit autour du jeu.',
     },
   ],
 }
 
 export const finalCta = {
   image: footerVisual,
-  eyebrow: 'Padel Maroc Pro',
+  eyebrow: 'Padel Event Maroc',
   title: 'Join the padel movement.',
   subtitle: 'Explore Morocco\'s events, clubs, stories and the next generation of premium padel experiences.',
 }

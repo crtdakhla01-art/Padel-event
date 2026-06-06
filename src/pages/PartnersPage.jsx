@@ -8,21 +8,21 @@ import spotlightImg from '../assets/images/PARTNERS_PAGE/img_15.png'
 
 function PartnersPage() {
   usePageSeo({
-    title: 'Partenaires & Sponsors | Coupe Intercontinentale de Padel',
+    title: 'Partenaires & Sponsors | Padel Event Maroc',
     description:
-      'Associez votre marque a l un des evenements sportifs les plus ambitieux du Maroc.',
+      'Associez votre marque à l\'un des événements sportifs les plus ambitieux du Maroc.',
   })
 
   const partnerTiers = [
     {
       name: 'Pack Bronze',
-      reach: 'Partenaire associe - 450 000 DH H.T',
-      perks: 'Logo digital, presence reseaux sociaux, invitations et networking.',
+      reach: 'Partenaire associé - 450 000 DH H.T',
+      perks: 'Logo digital, présence réseaux sociaux, invitations et networking.',
     },
     {
       name: 'Pack Silver',
       reach: 'Partenaire officiel - 650 000 DH H.T',
-      perks: 'Presence medias, terrains secondaires, supports officiels et invitation VIP.',
+      perks: 'Présence médias, terrains secondaires, supports officiels et invitation VIP.',
     },
     {
       name: 'Pack Gold',
@@ -32,11 +32,11 @@ function PartnersPage() {
   ]
 
   const partnerBenefits = [
-    'Forte visibilite',
+    'Forte visibilité',
     'Branding premium',
-    'Presence medias & reseaux sociaux',
+    'Présence médias & réseaux sociaux',
     'Networking B2B',
-    'Hospitalite VIP',
+    'Hospitalité VIP',
     'Image moderne et internationale',
   ]
 
@@ -68,11 +68,11 @@ function PartnersPage() {
             >
               Associez votre marque
               <br />
-              a l'evenement reference
+              à l'événement référence
             </h1>
             <p className="mt-4 max-w-2xl text-[clamp(0.9rem,1.4vw,1.1rem)] leading-relaxed text-white/90">
               Rejoignez un dispositif national ambitieux combinant sport,
-              visibilite media et opportunites business.
+              visibilité média et opportunités business.
             </p>
           </div>
         </div>
@@ -101,8 +101,8 @@ function PartnersPage() {
             </h2>
 
             <p className="mt-6 max-w-[62ch] text-sm leading-7 text-[#5c5c52]">
-              Le Morocco Padel Masters propose des formats de collaboration sur mesure,
-              adaptes aux objectifs de notoriete, de performance commerciale
+              Padel Event Maroc propose des formats de collaboration sur mesure,
+              adaptés aux objectifs de notoriété, de performance commerciale
               et de rayonnement institutionnel.
             </p>
 
@@ -119,7 +119,7 @@ function PartnersPage() {
           <div className="overflow-hidden bg-black/5">
             <img
               src={introImg}
-              alt="Activation sponsor sur evenement padel"
+              alt="Activation sponsor sur événement padel"
               loading="lazy"
               className="block h-auto w-full"
             />
@@ -205,7 +205,7 @@ function PartnersPage() {
             <div className="overflow-hidden bg-black/5">
               <img
                 src={spotlightImg}
-                alt="Visibilite partenaires en bord de terrain"
+                alt="Visibilité partenaires en bord de terrain"
                 loading="lazy"
                 className="block h-auto w-full"
               />
@@ -213,11 +213,11 @@ function PartnersPage() {
             <div className="mt-5 space-y-3 text-sm text-[#5c5c52]">
               <p className="inline-flex items-center gap-2">
                 <Megaphone className="h-4 w-4 text-[#8ba045]" />
-                Presence branding sur court, backdrops, digital et relations presse.
+                Présence branding sur court, backdrops, digital et relations presse.
               </p>
               <p className="inline-flex items-center gap-2">
                 <Megaphone className="h-4 w-4 text-[#8ba045]" />
-                Sectors cibles: automobile, banque, energie, telecom, immobilier, tourisme.
+                Secteurs cibles: automobile, banque, énergie, télécom, immobilier, tourisme.
               </p>
             </div>
           </div>
@@ -227,19 +227,19 @@ function PartnersPage() {
       {/* CTA */}
       <div className="reveal bg-[#1f2118]">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
-          <p className="text-sm text-white/85">Devenez sponsor de la Coupe Intercontinentale de Padel - Dakhla 2026.</p>
+          <p className="text-sm text-white/85">Devenez sponsor de Padel Event Maroc - Dakhla 2026.</p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               to="/contact"
               className="inline-flex items-center justify-center border border-[#b7c25b] bg-[#b7c25b] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1f2118] transition hover:bg-white"
             >
-              Telecharger le dossier sponsoring
+              Télécharger le dossier sponsoring
             </Link>
             <Link
               to="/evenements"
               className="inline-flex items-center justify-center border border-white/35 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition hover:border-[#b7c25b] hover:text-[#b7c25b]"
             >
-              Voir l'evenement
+              Voir l'événement
             </Link>
           </div>
         </div>

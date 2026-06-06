@@ -5,23 +5,23 @@ import { CalendarDays, Globe2, Trophy, Users } from 'lucide-react'
 
 function HomePage() {
   usePageSeo({
-    title: 'Accueil | Coupe Intercontinentale de Padel',
+    title: 'Accueil | Padel Event Maroc',
     description:
-      'Coupe Intercontinentale de Padel - Dakhla 2026: sport, business, tourisme et networking.',
+      'Padel Event Maroc - Dakhla 2026: sport, business, tourisme et networking.',
   })
 
   const stats = [
     { value: '16', label: 'nations participantes' },
-    { value: '5', label: 'continents representes' },
-    { value: '32', label: 'equipes internationales' },
+    { value: '5', label: 'continents représentés' },
+    { value: '32', label: 'équipes internationales' },
     { value: '+160', label: 'supporteurs internationaux' },
   ]
 
   const whyDakhla = [
     'Destination sportive premium',
-    'Hub Afrique - Europe - Ameriques',
+    'Hub Afrique - Europe - Amériques',
     'Cadre naturel exceptionnel',
-    'Forte visibilite mediatique',
+    'Forte visibilité médiatique',
   ]
 
   return (
@@ -39,14 +39,14 @@ function HomePage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              Coupe Intercontinentale de Padel
+              Padel Event Maroc
               <br />
               Dakhla 2026
             </h1>
 
             <p className="mt-3 max-w-3xl text-[clamp(0.95rem,1.5vw,1.2rem)] leading-relaxed text-white/90">
-              3eme edition sous le theme: Carrefour du Sport et des Affaires.
-              Un evenement international entre desert, lagune et ocean.
+              3e édition sous le thème: Carrefour du Sport et des Affaires.
+              Un événement international entre désert, lagune et océan.
             </p>
 
             <p className="mt-3 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.12em] text-white/85">
@@ -59,7 +59,7 @@ function HomePage() {
                 to="/evenements"
                 className="inline-flex items-center justify-center border border-white/35 bg-white px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1d2017] transition hover:bg-[#dfe2cf]"
               >
-                Decouvrir l'evenement
+                Découvrir l'événement
               </Link>
               <Link
                 to="/partenaires"
@@ -129,12 +129,12 @@ function HomePage() {
         <div className="border border-[#1d2017]/10 bg-white/70 p-6 sm:p-7">
           <p className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#7f8e47]">
             <Users className="h-3.5 w-3.5" />
-            Rejoignez l'evenement
+            Rejoignez l'événement
           </p>
           <p className="mt-4 text-sm leading-7 text-[#4f5540]">
-            Rejoignez l'un des plus grands evenements de padel en Afrique.
-            Joueurs, partenaires, medias et investisseurs se retrouvent a Dakhla
-            pour une edition orientee performance et opportunites.
+            Rejoignez l'un des plus grands événements de padel en Afrique.
+            Joueurs, partenaires, médias et investisseurs se retrouvent à Dakhla
+            pour une édition orientée performance et opportunités.
           </p>
           <Link
             to="/contact"

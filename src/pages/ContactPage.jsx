@@ -10,9 +10,9 @@ function ContactPage() {
   const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' })
 
   usePageSeo({
-    title: 'Contact | Coupe Intercontinentale de Padel',
+    title: 'Contact | Padel Event Maroc',
     description:
-      'Contactez l equipe pour partenariat, participation et informations sur la Coupe Intercontinentale de Padel - Dakhla 2026.',
+      'Contactez l\'équipe pour partenariat, participation et informations sur Padel Event Maroc - Dakhla 2026.',
   })
 
   const handleSubmit = (event) => {
@@ -42,14 +42,14 @@ function ContactPage() {
     if (!payload.fullName || !payload.email || !payload.subject || !payload.message) {
       setSubmitStatus({
         type: 'error',
-        message: 'Les champs obligatoires doivent etre remplis.',
+        message: 'Les champs obligatoires doivent être remplis.',
       })
       return
     }
 
     setSubmitStatus({
       type: 'success',
-      message: 'Demande envoyee localement. Le branchement backend sera ajoute ensuite.',
+      message: 'Demande envoyée localement. Le branchement backend sera ajouté ensuite.',
     })
     form.reset()
   }
@@ -57,7 +57,7 @@ function ContactPage() {
   const contactCards = [
     {
       icon: Phone,
-      label: 'Telephone',
+      label: 'Téléphone',
       value: contactInfo.phone,
       href: `tel:${contactInfo.phone}`,
     },
@@ -81,7 +81,7 @@ function ContactPage() {
       <div className="reveal relative isolate w-full overflow-hidden bg-black/5">
         <img
           src={heroImg}
-          alt="Equipe padel au Maroc"
+          alt="Équipe padel au Maroc"
           loading="lazy"
           className="block h-auto w-full"
         />
@@ -161,8 +161,8 @@ function ContactPage() {
             </h2>
 
             <p className="mt-6 max-w-[62ch] text-sm leading-7 text-[#5c5c52]">
-              Remplissez ce formulaire pour toute demande concernant le Morocco Padel
-              Masters 2026. Notre equipe vous contacte dans les meilleurs delais.
+              Remplissez ce formulaire pour toute demande concernant Padel Event
+              Maroc 2026. Notre équipe vous contacte dans les meilleurs délais.
             </p>
 
             <form
@@ -197,18 +197,18 @@ function ContactPage() {
               </label>
 
               <label className="flex flex-col gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#5c5c52]">
-                Societe
+                Société
                 <input
                   type="text"
                   name="company"
                   maxLength={120}
                   className="border border-[#1f2118]/15 bg-white px-4 py-3 text-sm text-[#1f2118] outline-none transition focus:border-[#8ba045]"
-                  placeholder="Nom de votre societe"
+                  placeholder="Nom de votre société"
                 />
               </label>
 
               <label className="flex flex-col gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-[#5c5c52]">
-                Telephone
+                Téléphone
                 <input
                   type="tel"
                   name="phone"
@@ -233,7 +233,7 @@ function ContactPage() {
                   </option>
                   <option value="inscription">Inscription tournoi</option>
                   <option value="partenariat">Partenariat sponsor</option>
-                  <option value="media">Media et presse</option>
+                  <option value="media">Média et presse</option>
                   <option value="autre">Autre demande</option>
                 </select>
               </label>
@@ -276,7 +276,7 @@ function ContactPage() {
             <div className="overflow-hidden bg-black/5">
               <img
                 src={officeImg}
-                alt="Bureaux federation padel maroc"
+                alt="Bureaux fédération padel maroc"
                 loading="lazy"
                 className="block h-auto w-full"
               />
@@ -291,7 +291,7 @@ function ContactPage() {
                   letterSpacing: '-0.01em',
                 }}
               >
-                Siege organisation
+                Siège organisation
               </h3>
 
               <p className="mt-4 inline-flex items-start gap-2 text-sm leading-7 text-[#5c5c52]">
@@ -316,19 +316,19 @@ function ContactPage() {
       {/* CTA */}
       <div className="reveal bg-[#1f2118]">
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-5 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
-          <p className="text-sm text-white/85">Besoin d'une reponse immediate pour votre participation ?</p>
+          <p className="text-sm text-white/85">Besoin d'une réponse immédiate pour votre participation ?</p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
               href={`tel:${contactInfo.phone}`}
               className="inline-flex items-center justify-center border border-[#b7c25b] bg-[#b7c25b] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#1f2118] transition hover:bg-white"
             >
-              Appeler l'equipe
+              Appeler l'équipe
             </a>
             <Link
               to="/evenements"
               className="inline-flex items-center justify-center border border-white/35 px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition hover:border-[#b7c25b] hover:text-[#b7c25b]"
             >
-              Retour evenement
+              Retour événement
             </Link>
           </div>
         </div>

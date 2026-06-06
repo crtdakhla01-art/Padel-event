@@ -24,12 +24,12 @@ const features = [
   {
     icon: CalendarDays,
     title: 'MIXTE & INTERGENERATIONNEL',
-    text: 'Le padel rassemble jeunes, familles, entreprises et competiteurs.',
+    text: 'Le padel rassemble jeunes, familles, entreprises et compétiteurs.',
   },
   {
     icon: Users,
     title: 'CROISSANCE RAPIDE',
-    text: 'Developpement accelere des clubs, academies et tournois au Maroc.',
+    text: 'Développement accéléré des clubs, académies et tournois au Maroc.',
   },
 ]
 
@@ -75,7 +75,7 @@ function ClubsPage() {
           <div>
             <p className="mb-5 inline-flex items-center gap-2 text-[clamp(0.62rem,0.9vw,0.8rem)] font-semibold uppercase tracking-[0.2em] text-[#5c5c52]">
               <Globe2 className="h-3.5 w-3.5" />
-              Ecosysteme padel
+              Écosystème padel
             </p>
 
             <h2
@@ -88,22 +88,22 @@ function ClubsPage() {
             >
               Le Maroc devient une
               <br />
-              reference regionale
+              référence régionale
             </h2>
 
             <div className="mt-8 max-w-2xl space-y-4 text-[clamp(0.9rem,1.05vw,1.02rem)] leading-8 text-[#5c5c52]">
               <p>
-                Le padel connait une croissance exceptionnelle au Maroc.
+                Le padel connaît une croissance exceptionnelle au Maroc.
                 Ce sport moderne et accessible attire aujourd'hui joueurs amateurs,
                 sportifs professionnels, entrepreneurs et investisseurs.
               </p>
               <p>
-                Grace a des evenements comme la Coupe Intercontinentale de Padel - Dakhla,
+                Grâce à des événements comme Padel Event Maroc - Dakhla,
                 le Maroc renforce son positionnement comme hub du padel en Afrique,
-                a l'intersection du sport et du business.
+                à l'intersection du sport et du business.
               </p>
               <p>
-                Le developpement des clubs, des academies et des competitions nationales
+                Le développement des clubs, des académies et des compétitions nationales
                 confirme cette dynamique structurelle sur tout le territoire.
               </p>
             </div>

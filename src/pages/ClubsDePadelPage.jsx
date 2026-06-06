@@ -14,12 +14,12 @@ const features = [
   {
     icon: MapPin,
     title: 'CASABLANCA, RABAT, MARRAKECH',
-    text: 'Principaux hubs du padel marocain avec structures competitives et academies.',
+    text: 'Principaux hubs du padel marocain avec structures compétitives et académies.',
   },
   {
     icon: Trophy,
     title: 'AGADIR, TANGER, DAKHLA',
-    text: 'Villes en forte croissance avec nouveaux clubs et programmation regionale.',
+    text: 'Villes en forte croissance avec nouveaux clubs et programmation régionale.',
   },
   {
     icon: Star,
@@ -59,7 +59,7 @@ function ClubsDePadelPage() {
             Clubs de Padel au Maroc
           </h1>
           <p className="mt-4 text-[clamp(0.9rem,1.6vw,1.55rem)] text-white/90">
-            Decouvrez les principaux clubs et infrastructures qui developpent ce sport.
+            Découvrez les principaux clubs et infrastructures qui développent ce sport.
           </p>
         </div>
       </div>
@@ -88,16 +88,16 @@ function ClubsDePadelPage() {
 
             <div className="mt-8 max-w-2xl space-y-4 text-[clamp(0.9rem,1.05vw,1.02rem)] leading-8 text-[#5c5c52]">
               <p>
-                Le padel poursuit son expansion au Maroc avec une diversite de clubs
-                modernes, academies et centres de competition dans les grandes villes.
+                Le padel poursuit son expansion au Maroc avec une diversité de clubs
+                modernes, académies et centres de compétition dans les grandes villes.
               </p>
               <p>
-                De Casablanca a Dakhla, chaque structure participe a la montee en gamme
-                des infrastructures et a la professionnalisation de l'ecosysteme.
+                De Casablanca à Dakhla, chaque structure participe à la montée en gamme
+                des infrastructures et à la professionnalisation de l'écosystème.
               </p>
               <p>
-                Dakhla devient une destination majeure du padel grace a son climat
-                et son cadre exceptionnel entre lagune, ocean et desert.
+                Dakhla devient une destination majeure du padel grâce à son climat
+                et son cadre exceptionnel entre lagune, océan et désert.
               </p>
             </div>
           </div>

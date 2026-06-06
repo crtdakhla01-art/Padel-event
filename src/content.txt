@@ -23,14 +23,14 @@ PAGE ACCUEIL
 
 Hero Section:
 Titre:
-Coupe Intercontinentale de Padel – Dakhla 2026
+Padel Event Maroc – Dakhla 2026
 
 Sous-titre:
 3ème édition sous le thème :
 Carrefour du Sport et des Affaires
 
 Description:
-La Coupe Intercontinentale de Padel de Dakhla est un événement sportif international qui rassemble sport, business, tourisme et networking dans un cadre exceptionnel entre désert, lagune et océan.
+Padel Event Maroc à Dakhla est un événement sportif international qui rassemble sport, business, tourisme et networking dans un cadre exceptionnel entre désert, lagune et océan.
 
 Date:
 22 – 25 Octobre 2026
@@ -76,7 +76,7 @@ Pourquoi le padel explose:
 - Croissance rapide des clubs au Maroc
 
 Le Maroc & le padel international:
-Grâce à des événements comme la Coupe Intercontinentale de Padel – Dakhla, le Maroc devient progressivement une référence du padel en Afrique.
+Grâce à des événements comme Padel Event Maroc – Dakhla, le Maroc devient progressivement une référence du padel en Afrique.
 
 Section chiffres:
 - Croissance rapide des clubs
@@ -127,7 +127,7 @@ Hero:
 Découvrez les plus grands événements de padel organisés au Maroc et à l’international.
 
 Event principal:
-Coupe Intercontinentale de Padel – Dakhla 2026
+Padel Event Maroc – Dakhla 2026
 
 Description:
 Un événement international réunissant joueurs, sponsors, investisseurs et médias autour du sport et du business.
@@ -243,7 +243,7 @@ Titre:
 Business & Networking
 
 Description:
-La Coupe Intercontinentale de Padel de Dakhla est aussi une plateforme de rencontres professionnelles et d’opportunités d’investissement.
+Padel Event Maroc à Dakhla est aussi une plateforme de rencontres professionnelles et d’opportunités d’investissement.
 
 Sections:
 - Rencontres BtoB
@@ -278,7 +278,7 @@ Titre:
 À propos de la Coupe
 
 Description:
-La Coupe Intercontinentale de Padel – Dakhla est née avec l’ambition de créer un événement international réunissant sport, tourisme et business au cœur de Dakhla.
+Padel Event Maroc – Dakhla est né avec l’ambition de créer un événement international réunissant sport, tourisme et business au cœur de Dakhla.
 
 Historique:
 - 2019 : Première édition
@@ -322,4 +322,4 @@ Sections:
 - Copyright
 
 Texte:
-© Coupe Intercontinentale de Padel – Dakhla 2026. Tous droits réservés.
+© Padel Event Maroc – Dakhla 2026. Tous droits réservés.

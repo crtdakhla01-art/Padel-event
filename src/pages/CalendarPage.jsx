@@ -9,22 +9,22 @@ import sessionImg3 from '../assets/images/CALENDAR_PAGE/img_8.png'
 
 function CalendarPage() {
   usePageSeo({
-    title: 'Calendrier des competitions | Coupe Intercontinentale de Padel',
+    title: 'Calendrier des compétitions | Padel Event Maroc',
     description:
-      'Retrouvez toutes les competitions et evenements de padel programmes au Maroc.',
+      'Retrouvez toutes les compétitions et événements de padel programmés au Maroc.',
   })
 
   const keyDates = [
     {
-      label: 'Cloture inscriptions',
+      label: 'Clôture inscriptions',
       date: 'Tournoi Casablanca - Janvier',
     },
     {
-      label: 'Tournoi regional',
+      label: 'Tournoi régional',
       date: 'Open Marrakech - Mars',
     },
     {
-      label: 'Evenement international',
+      label: 'Événement international',
       date: 'Coupe Intercontinentale Dakhla - Juin',
     },
     {
@@ -63,7 +63,7 @@ function CalendarPage() {
       <div className="reveal relative isolate w-full overflow-hidden bg-black/5">
         <img
           src={heroImg}
-          alt="Calendrier de competition padel"
+          alt="Calendrier de compétition padel"
           loading="lazy"
           className="block h-auto w-full"
         />
@@ -73,7 +73,7 @@ function CalendarPage() {
           <div className="mx-auto w-full max-w-[1200px] px-[4vw] pb-8 sm:pb-12 lg:pb-16">
             <p className="inline-flex items-center gap-2 text-[clamp(0.62rem,1vw,0.82rem)] font-semibold uppercase tracking-[0.2em] text-white/90">
               <CalendarDays className="h-3.5 w-3.5" />
-              Calendrier des competitions
+              Calendrier des compétitions
             </p>
             <h1
               className="mt-3 max-w-5xl text-[clamp(1.85rem,5.8vw,4.6rem)] uppercase leading-[0.94] text-white"
@@ -88,7 +88,7 @@ function CalendarPage() {
               maroc 2026
             </h1>
             <p className="mt-4 max-w-2xl text-[clamp(0.9rem,1.4vw,1.1rem)] leading-relaxed text-white/90">
-              Retrouvez toutes les competitions et evenements de padel programmes
+              Retrouvez toutes les compétitions et événements de padel programmés
               au Maroc, avec une vue claire de la saison.
             </p>
           </div>
@@ -135,14 +135,14 @@ function CalendarPage() {
                 letterSpacing: '-0.02em',
               }}
             >
-              3 jours de competition
+              3 jours de compétition
               <br />
               en continu
             </h2>
 
             <p className="mt-6 max-w-[62ch] text-sm leading-7 text-[#5c5c52]">
               Le calendrier centralise les rendez-vous majeurs de la saison.
-              Cette base peut evoluer avec filtres par ville, niveau et date
+              Cette base peut évoluer avec filtres par ville, niveau et date
               ainsi qu'une vue calendrier moderne.
             </p>
 
@@ -151,7 +151,7 @@ function CalendarPage() {
                 to="/evenements"
                 className="inline-flex items-center justify-center border border-[#1f2118]/20 bg-[#1f2118] px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition hover:bg-[#8ba045] hover:text-[#1f2118]"
               >
-                Retour evenement
+                Retour événement
               </Link>
               <Link
                 to="/clubs-de-padel"
@@ -228,7 +228,7 @@ function CalendarPage() {
         <div className="mx-auto flex w-full max-w-[1200px] flex-col gap-4 px-[4vw] py-10 sm:flex-row sm:items-center sm:justify-between sm:py-12">
           <p className="inline-flex items-center gap-2 text-sm text-white/85">
             <MapPin className="h-4 w-4 text-[#b7c25b]" />
-            Evenement majeur: Coupe Intercontinentale de Padel - Dakhla
+            Événement majeur: Padel Event Maroc - Dakhla
           </p>
           <Link
             to="/contact"
